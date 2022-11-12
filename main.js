@@ -34,6 +34,11 @@ const iconsData = [
 const majorList = document.querySelector("#major__list");
 let isExplain = false;
 let renderAll = true;
+/*
+ *
+ *@Author: Ngô Hữu Hoàng
+ *
+ */
 const renderMajor = () => {
     let innerHtml = "";
     const renderIconsData = window.innerWidth >= 1024 || isExplain ? [...iconsData] : iconsData.slice(0, 4);

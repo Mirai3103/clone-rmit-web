@@ -2,6 +2,11 @@ let video = document.getElementById("video-intro");
 window.onload = function () {
     setTimeout(() => video.play(), 2000);
 };
+/*
+ *
+ *@Author: Ngô Hữu Hoàng
+ *
+ */
 document.querySelector(".dropdown__item.dropdown__item--show").addEventListener("mouseover", function () {
     document.querySelector(".dropdown__item.dropdown__item--show i").style.transform = "rotate(180deg)";
 });
