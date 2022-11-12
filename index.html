@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rmit</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+        <link rel="stylesheet" href="./reset.css" />
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+
+    <body style="position: relative">
+        <div style="position: fixed; left: 0; bottom: 10rem; z-index: 100">
+            <div class="hidden-mobile" id="helpImprove">Help us improve</div>
+        </div>
+        <header class="header">
+            <div class="header__oversize">
+                <div class="header__oversize__image">
+                    <img src="./assets/RMIT_University_Logo.svg" alt="logo" />
+                </div>
+                <div class="header__oversize__dropdown-menu">
+                    <div class="dropdown__item dropdown__item--show">
+                        <span> RMIT Australia </span>
+                        <i class="fa-solid fa fa-chevron-down"></i>
+                    </div>
+
+                    <ul class="dropdow-hidden">
+                        <li class="dropdown__item">RMIT Europe</li>
+                        <li class="dropdown__item">RMIT Global</li>
+                        <li class="dropdown__item">RMIT VietNam</li>
+                        <li class="dropdown__item">Study online</li>
+                    </ul>
+                </div>
+            </div>
+            <nav style="height: 100%">
+                <ul class="nav">
+                    <li class="nav__item">Browse courses</li>
+                    <li class="nav__item">Students</li>
+                    <li class="nav__item">Alumni</li>
+                    <li class="nav__item">Staff</li>
+                    <li class="nav__item">Library</li>
+                    <li class="nav__item">RMIT Online</li>
+                    <li class="nav__item">COVID</li>
+                    <li class="nav__item icon">
+                        <i class="fa-light fa fa-heart"></i>
+                    </li>
+                    <li class="nav__item icon">
+                        <i class="fa-thin fa fa-magnifying-glass"></i>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="notpaddingmobile" style="background-color: white; padding-bottom: 11.5rem">
+            <div class="intro__container">
+                <div class="intro__video">
+                    <video class="w-full" id="video-intro">
+                        <source src="./assets/videoRmit.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="header__over-video">
+                    <div class="header__over-video__logo">
+                        <img src="./assets/RMIT University - RMIT University-0Red.svg" alt="logo" />
+                    </div>
+                    <ul class="nav">
+                        <li class="nav__item icon">
+                            <i class="fa-light fa fa-heart"></i>
+                        </li>
+                        <li class="nav__item icon">
+                            <i class="fa-thin fa fa-magnifying-glass"></i>
+                        </li>
+                        <li class="nav__item icon">
+                            <i class="fa-solid fa-bars"></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="intro__overlay">
+                    <div class="video--icon__parent">
+                        <div class="intro__video--icon">
+                            <i class="fa-solid fa fa-pause"></i>
+                        </div>
+                    </div>
+                    <div class="intro_layer">
+                        <div class="intro__des">
+                            <div class="show-mobile" style="width: 55px; height: auto">
+                                <img src="./assets/RMIT LogoMobile.svg" alt="logo" />
+                            </div>
+
+                            <div class="title">What's next awaits</div>
+                            <div class="hidden-mobile">
+                                <div class="intro__des--text">You might be interested in</div>
+                                <div class="des__link--group">
+                                    <a>Chat to us</a>
+                                    <a>Extra support</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="intro__resource">
+                            <div class="intro__btn-group">
+                                <button innerText="Study" class="btn">Study</button>
+                                <button innerText="Research" class="btn">Research</button>
+                                <button innerText="Partner" class="btn">Partner</button>
+                                <button innerText="Apply now" class="btn btn-primary">Apply now</button>
+                            </div>
+                            <div class="intro__input">
+                                <input type="text" name="" id="" placeholder="Search courses" /><i
+                                    class="fa-thin fa fa-magnifying-glass"
+                                ></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="show-mobile intro__des--mobile">
+                <div class="intro__des--text">You might be interested in</div>
+                <div class="des__link--group">
+                    <a>Chat to us</a>
+                    <a>Extra support</a>
+                </div>
+            </div>
+            <div class="summary">
+                <div class="summary__title title">RMIT is a global university of technology, design and enterprise</div>
+                <div class="summary__detail-group">
+                    <div class="summary__detail__item">
+                        <span class="summary__detail__item__header">Top 250</span>
+                        <span class="summary__detail__item__explain">universities worldwide<sup>1</sup></span>
+                    </div>
+                    <div class="summary__detail__item">
+                        <span class="summary__detail__item__header">15,800+ industry placements</span>
+                        <span class="summary__detail__item__explain">for students in 2020</span>
+                    </div>
+                    <div class="summary__detail__item">
+                        <span class="summary__detail__item__header">97,000 students</span>
+                        <span class="summary__detail__item__explain">from 230+ different countries</span>
+                    </div>
+                </div>
+                <div class="summary__detail__description"><sup>1</sup>&nbsp;QS World University Ranking 2021</div>
+            </div>
+        </div>
+        <div id="padding-mobile" style="height: auto">
+            <div class="major__relative">
+                <div class="major__container">
+                    <div class="major__question">What would you like to study?</div>
+                    <div id="major__list" class="major__list"></div>
+                    <button id="view-major-btn" onclick="onToggleMajorList()">view all</button>
+                </div>
+                <div style="min-height: 100vh; display: flex; flex-direction: column; row-gap: 4.125rem">
+                    <div class="review1">
+                        <div class="review1__img">
+                            <img src="./assets/image/review1.jpg" alt="rv1" />
+                        </div>
+                        <div class="review1__info">
+                            <h3 class="title">Information for international students</h3>
+                            <p>
+                                Join over 18,000 international students at RMIT University, one of the top universities
+                                in Australia. Browse courses, discover life in Melbourne and find out how to apply as an
+                                international student.
+                            </p>
+                            <div><button>Find out more</button></div>
+                        </div>
+                    </div>
+                    <div class="review2">
+                        <div class="review2__info boderrightnone">
+                            <h3 class="title">What RMIT student will you be?</h3>
+                            <p>
+                                Are you a high achiever motivated by grades or an explorer who loves adventure? Take the
+                                RMIT Student Personality Quiz and download your guide to starting at RMIT.
+                            </p>
+                            <a href="#"><span>Find out more</span></a>
+                        </div>
+                        <div class="review2__img">
+                            <img src="./assets/image/inton-students-diverse-group-design-1220x732.jpg" alt="rv2" />
+                        </div>
+                    </div>
+                    <div class="review2">
+                        <div class="review2__img">
+                            <img src="./assets/image/news-ha4mme-22022-1440x864.jpg" alt="rv2" />
+                        </div>
+                        <div class="review2__info boderleftnone">
+                            <h3 class="title">What RMIT student will you be?</h3>
+                            <p>
+                                Are you a high achiever motivated by grades or an explorer who loves adventure? Take the
+                                RMIT Student Personality Quiz and download your guide to starting at RMIT.
+                            </p>
+                            <a href="#"><span>Find out more</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+        <!-- <div style="background: #f5f5f5; padding-bottom: 5rem"></div> -->
+        <div style="background-color: white; margin-top: 3rem">
+            <div style="border-bottom: 2px solid rgb(173, 173, 173)" id="padding-mobile">
+                <div class="country-acknowledgement">
+                    <div class="country-acknowledgement__info">
+                        <div class="flag-group">
+                            <img src="./assets/image/flag-red.png" alt="red" /><img
+                                src="./assets/image/flag-green.png"
+                                alt=""
+                            />
+                        </div>
+                        <h3>Acknowledgement of Country</h3>
+                        <p>
+                            RMIT University acknowledges the people of the Woi wurrung and Boon wurrung language groups
+                            of the eastern Kulin Nation on whose unceded lands we conduct the business of the
+                            University. RMIT University respectfully acknowledges their Ancestors and Elders, past and
+                            present. RMIT also acknowledges the Traditional Custodians and their Ancestors of the lands
+                            and waters across Australia where we conduct our business - Artwork 'Luwaytini' by Mark
+                            Cleaver, Palawa.
+                        </p>
+                        <a href="#"><span>More information</span></a>
+                    </div>
+                    <div class="country-acknowledgement__imgage hidden-mobile">
+                        <img src="./assets/image/luwaytini.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-link">
+            <div class="footer-col">
+                <div class="col-header hasImg">
+                    <img src="./assets/icon/RMIT UniversityLogo.svg" alt="" />
+                </div>
+                <div class="col-link">
+                    <span>News</span>
+                </div>
+                <div class="col-link">
+                    <span>Events</span>
+                </div>
+                <div class="col-link">
+                    <span>Library</span>
+                </div>
+                <div class="col-link">
+                    <span>Maps</span>
+                </div>
+                <div class="col-link">
+                    <span>Careers</span>
+                </div>
+                <div class="col-link">
+                    <span>Contacts</span>
+                </div>
+            </div>
+            <div class="footer-col footer-col--mobile" onclick="handleToggleExpland(event)">
+                <div class="col-header"><span>Study with Us</span> <i class="fa-solid fa fa-chevron-down"></i></div>
+                <div class="col-link">
+                    <span>Levels of study</span>
+                </div>
+                <div class="col-link">
+                    <span>Online courses and degrees</span>
+                </div>
+                <div class="col-link">
+                    <span>Single courses</span>
+                </div>
+                <div class="col-link">
+                    <span>Applying to RMIT</span>
+                </div>
+                <div class="col-link">
+                    <span>International students </span>
+                </div>
+                <div class="col-link">
+                    <span>Parents</span>
+                </div>
+                <div class="col-link">
+                    <span>Careers advisers</span>
+                </div>
+            </div>
+            <div class="footer-col footer-col--mobile show" onclick="handleToggleExpland(event)">
+                <div class="col-header"><span>Life at RMIT</span> <i class="fa-solid fa fa-chevron-down"></i></div>
+                <div class="col-link">
+                    <span>Study experience</span>
+                </div>
+                <div class="col-link">
+                    <span>Student life</span>
+                </div>
+                <div class="col-link">
+                    <span>Support for students</span>
+                </div>
+                <div class="col-link">
+                    <span>Golbal opportunities</span>
+                </div>
+                <div class="col-link">
+                    <span>Industry connections</span>
+                </div>
+            </div>
+            <div class="footer-col footer-col--mobile" onclick="handleToggleExpland(event)">
+                <div class="col-header"><span>Research</span> <i class="fa-solid fa fa-chevron-down"></i></div>
+                <div class="col-link">
+                    <span>Our research</span>
+                </div>
+                <div class="col-link">
+                    <span>Centres and collaborations</span>
+                </div>
+                <div class="col-link">
+                    <span>Partnerships</span>
+                </div>
+                <div class="col-link">
+                    <span>Research degrees</span>
+                </div>
+                <div class="col-link">
+                    <span>Find research</span>
+                </div>
+                <div class="col-link">
+                    <span>Research contacts</span>
+                </div>
+            </div>
+            <div class="footer-col footer-col--mobile" onclick="handleToggleExpland(event)">
+                <div class="col-header"><span>Partner</span> <i class="fa-solid fa fa-chevron-down"></i></div>
+                <div class="col-link">
+                    <span>Workforce development</span>
+                </div>
+                <div class="col-link">
+                    <span>Staff development and training</span>
+                </div>
+                <div class="col-link">
+                    <span>Research partnerships</span>
+                </div>
+                <div class="col-link">
+                    <span>Facilities and equipment services</span>
+                </div>
+                <div class="col-link">
+                    <span>Giving</span>
+                </div>
+            </div>
+            <div class="footer-col footer-col--mobile" onclick="handleToggleExpland(event)">
+                <div class="col-header"><span>About</span> <i class="fa-solid fa fa-chevron-down"></i></div>
+                <div class="col-link">
+                    <span>Our strategy</span>
+                </div>
+                <div class="col-link">
+                    <span>Governance and management</span>
+                </div>
+                <div class="col-link">
+                    <span>Values</span>
+                </div>
+                <div class="col-link">
+                    <span>Sustainability</span>
+                </div>
+                <div class="col-link">
+                    <span>Schools and colleges</span>
+                </div>
+                <div class="col-link">
+                    <span>Our locations and facilities</span>
+                </div>
+            </div>
+        </div>
+        <script src="./main.js"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
