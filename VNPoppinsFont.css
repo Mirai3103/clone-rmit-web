@@ -1,0 +1,86 @@
+@font-face {
+    font-family: VNPopins;
+    src: url(https://raw.githubusercontent.com/Mirai3103/clone-rmit-web/main/assets/font/poppins/Poppins-Bold.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: VNPopins;
+    src: url(https://raw.githubusercontent.com/Mirai3103/clone-rmit-web/main/assets/font/poppins/Poppins-Black.otf);
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: VNPopins;
+    src: url(https://raw.githubusercontent.com/Mirai3103/clone-rmit-web/main/assets/font/poppins/Poppins-BlackItalic.otf);
+    font-style: italic;
+    font-weight: 800;
+}
+@font-face {
+    font-family: VNPopins;
+    src: url(https://raw.githubusercontent.com/Mirai3103/clone-rmit-web/main/assets/font/poppins/Poppins-BoldItalic.otf);
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: VNPopins;
+    src: url(https://raw.githubusercontent.com/Mirai3103/clone-rmit-web/main/assets/font/poppins/Poppins-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: VNPopins;
+    src: url(https://raw.githubusercontent.com/Mirai3103/clone-rmit-web/main/assets/font/poppins/Poppins-Italic.otf);
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: VNPopins;
+    src: url(https://raw.githubusercontent.com/Mirai3103/clone-rmit-web/main/assets/font/poppins/Poppins-MediumItalic.otf);
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: VNPopins;
+    src: url(https://raw.githubusercontent.com/Mirai3103/clone-rmit-web/main/assets/font/poppins/Poppins-Medium.otf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: VNPopins;
+    src: url(https://raw.githubusercontent.com/Mirai3103/clone-rmit-web/main/assets/font/poppins/Poppins-SemiBold.otf);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: VNPopins;
+    src: url(https://raw.githubusercontent.com/Mirai3103/clone-rmit-web/main/assets/font/poppins/Poppins-SemiBoldItalic.otf);
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: VNPopins;
+    src: url(https://raw.githubusercontent.com/Mirai3103/clone-rmit-web/main/assets/font/poppins/Poppins-Thin.otf);
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: VNPopins;
+    src: url(https://raw.githubusercontent.com/Mirai3103/clone-rmit-web/main/assets/font/poppins/Poppins-ThinItalic.otf);
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: VNPopins;
+    src: url(https://raw.githubusercontent.com/Mirai3103/clone-rmit-web/main/assets/font/poppins/Poppins-Light.otf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: VNPopins;
+    src: url(https://raw.githubusercontent.com/Mirai3103/clone-rmit-web/main/assets/font/poppins/Poppins-LightItalic.otf);
+    font-weight: 300;
+    font-style: italic;
+}
